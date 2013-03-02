@@ -36,4 +36,4 @@ if __name__ == "__main__":
 	parser.add_argument('-x', '--extra', action='store', default='', help='Extra arguments')
 	parser.add_argument('-d', '--dry', action='store_true', help='Dry run. No actual encoding is performed')
 	a = parser.parse_args();
-	ffmpeg.encode(a.files, a.bit_rate, a.profile, a.preset, a.audio, a.extra, a.extension, a.dry) 
+	encode(a.files, a.bit_rate, a.profile, a.preset, a.audio, a.extra, a.extension, a.dry) 
