@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """2-Pass x264 encoding with ffmpeg"""
 
 from subprocess import call
